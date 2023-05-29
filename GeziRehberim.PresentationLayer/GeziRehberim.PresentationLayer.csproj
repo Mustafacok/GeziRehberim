@@ -1907,11 +1907,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Views\Shared\Components\_CustomerLayoutSidebarPartial\" />
-    <Folder Include="Views\Shared\Components\_CustomerLayoutSettingsPanelPartial\" />
-    <Folder Include="Views\Shared\Components\_CustomerLayoutScriptPartial\" />
-    <Folder Include="Views\Shared\Components\_CustomerLayoutNavbarPartial\" />
-    <Folder Include="Views\Shared\Components\_CustomerLayoutHeaderPartial\" />
     <Folder Include="wwwroot\skydash_admin\.git\objects\info\" />
     <Folder Include="wwwroot\skydash_admin\.git\objects\pack\" />
     <Folder Include="wwwroot\skydash_admin\.git\refs\tags\" />
