@@ -33,26 +33,25 @@
                             <h5 class="font-weight-light">Yeni Müşteri</h5>
                             <form class="pt-3" method="post">
                                 <div class="form-group">
-                                    <input type="text" asp-for="Name" class="form-control form-control-lg" id="exampleInputUsername1" placeholder="Adınız">
+                                    <input type="text" asp-for="Name" class="form-control form-control-lg" id="exampleInputUsername1" placeholder="Adınız" required="">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" asp-for="Surname" class="form-control form-control-lg" id="exampleInputUsername1" placeholder="Soyadınız">
+                                    <input type="text" asp-for="Surname" class="form-control form-control-lg" id="exampleInputUsername1" placeholder="Soyadınız" required="">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" asp-for="Username" class="form-control form-control-lg" id="exampleInputUsername1" placeholder="Kullanıcı Adınız">
+                                    <input type="text" asp-for="Username" class="form-control form-control-lg" id="exampleInputUsername1" placeholder="Kullanıcı Adınız" required="">
                                 </div>
                                 <div class="form-group">
-                                    <input type="email" asp-for="Email" class="form-control form-control-lg" id="exampleInputEmail1" placeholder="Mail Adresiniz">
+                                    <input type="email" asp-for="Email" class="form-control form-control-lg" id="exampleInputEmail1" placeholder="Mail Adresiniz" required="">
                                 </div>
                                 <div class="form-group">
-                                    <input type="password" asp-for="Password" class="form-control form-control-lg" id="exampleInputPassword1" placeholder="Şifreniz">
+                                    <input type="password" asp-for="Password" class="form-control form-control-lg" id="exampleInputPassword1" placeholder="Şifreniz" required="">
                                 </div>
                                 <div class="form-group">
-                                    <input type="password" asp-for="ConfirmPassword" class="form-control form-control-lg" id="exampleInputPassword1" placeholder="Şifrenizi Tekrar Giriniz">
+                                    <input type="password" asp-for="ConfirmPassword" class="form-control form-control-lg" id="exampleInputPassword1" placeholder="Şifrenizi Tekrar Giriniz" required="">
                                 </div>
-                                <div class="text-white" asp-validation-summary="ModelOnly"></div> 
-                                <br /><br />
-
+                                <div class="text-black bg-info" asp-validation-summary="ModelOnly"></div> 
+                                
                                 <div class="mb-4">
                                     <div class="form-check">
                                         <label class="form-check-label text-muted">

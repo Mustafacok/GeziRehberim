@@ -8,16 +8,11 @@
 
 <body>
   <div class="container-scroller">
-
         @await Component.InvokeAsync("_CustomerLayoutNavbarPartial")
 
     <div class="container-fluid page-body-wrapper">
-      <!-- partial:../../partials/_settings-panel.html -->
             @await Component.InvokeAsync("_CustomerLayoutSettingsPanelPartial")
-      <!-- partial -->
-      <!-- partial:../../partials/_sidebar.html -->
             @await Component.InvokeAsync("_CustomerLayoutSidebarPartial")
-      <!-- partial -->
       <div class="main-panel">
         <div class="content-wrapper">
           <div class="row">
@@ -717,14 +712,9 @@
             </div>
           </div>
         </div>
-        <!-- content-wrapper ends -->
-        <!-- partial:../../partials/_footer.html -->
         @await Component.InvokeAsync("_CustomerLayoutFooterPartial")
-        <!-- partial -->
       </div>
-      <!-- main-panel ends -->
     </div>
-    <!-- page-body-wrapper ends -->
   </div>
 
     @await Component.InvokeAsync("_CustomerLayoutScriptPartial") 
